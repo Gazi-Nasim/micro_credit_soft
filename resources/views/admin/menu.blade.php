@@ -32,33 +32,12 @@
     <!-- Sidebar Menu -->
     <nav class="mt-2">
       <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
-        <!-- Add icons to the links using the .nav-icon class
-             with font-awesome or any other icon font library -->
-        {{-- <li class="nav-item">
-          <a href="#" class="nav-link">
-            <i class="nav-icon fas fa-tachometer-alt"></i>
-            <p>
-              Dashboard
-              <i class="right fas fa-angle-left"></i>
-            </p>
-          </a>
-          <ul class="nav nav-treeview">
-            <li class="nav-item">
-              <a href="../../index.html" class="nav-link">
-                <i class="far fa-circle nav-icon"></i>
-                <p>Dashboard v1</p>
-              </a>
-            </li>
-            
-          </ul>
-        </li> --}}
         
-
         <li class="nav-item">
           <a href="#" class="nav-link">
             <i class="nav-icon fas fa-copy"></i>
             <p>
-              Layout Options
+              Dashboard
               <i class="fas fa-angle-left right"></i>
               <span class="badge badge-info right">6</span>
             </p>
@@ -79,7 +58,7 @@
           <a href="#" class="nav-link">
             <i class="nav-icon fas fa-chart-pie"></i>
             <p>
-              Charts
+              Branches
               <i class="right fas fa-angle-left"></i>
             </p>
           </a>
@@ -99,7 +78,7 @@
           <a href="#" class="nav-link">
             <i class="nav-icon fas fa-tree"></i>
             <p>
-              UI Elements
+              Members
               <i class="fas fa-angle-left right"></i>
             </p>
           </a>
@@ -119,7 +98,7 @@
           <a href="#" class="nav-link">
             <i class="nav-icon fas fa-edit"></i>
             <p>
-              Forms
+              Loans
               <i class="fas fa-angle-left right"></i>
             </p>
           </a>
@@ -139,7 +118,7 @@
           <a href="#" class="nav-link">
             <i class="nav-icon fas fa-table"></i>
             <p>
-              Tables
+              Repayments
               <i class="fas fa-angle-left right"></i>
             </p>
           </a>
@@ -158,7 +137,7 @@
           <a href="#" class="nav-link">
             <i class="nav-icon far fa-envelope"></i>
             <p>
-              Mailbox
+              Accounts
               <i class="fas fa-angle-left right"></i>
             </p>
           </a>
@@ -172,13 +151,12 @@
           
           </ul>
         </li>
-
-
+        
         <li class="nav-item">
           <a href="#" class="nav-link">
             <i class="nav-icon fas fa-book"></i>
             <p>
-              Pages
+              Deposit
               <i class="fas fa-angle-left right"></i>
             </p>
           </a>
@@ -191,6 +169,169 @@
               </a>
             </li>
           </ul>
+        </li>
+
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <i class="nav-icon fas fa-book"></i>
+            <p>
+              Withdraw
+              <i class="fas fa-angle-left right"></i>
+            </p>
+          </a>
+          <ul class="nav nav-treeview">
+             
+            <li class="nav-item">
+              <a href="../examples/contact-us.html" class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Contact us</p>
+              </a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <i class="nav-icon fas fa-book"></i>
+            <p>
+              Transactions
+              <i class="fas fa-angle-left right"></i>
+            </p>
+          </a>
+          <ul class="nav nav-treeview">
+             
+            <li class="nav-item">
+              <a href="../examples/contact-us.html" class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Contact us</p>
+              </a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <i class="nav-icon fas fa-book"></i>
+            <p>
+              Expense
+              <i class="fas fa-angle-left right"></i>
+            </p>
+          </a>
+          <ul class="nav nav-treeview">
+             
+            <li class="nav-item">
+              <a href="../examples/contact-us.html" class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Contact us</p>
+              </a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <i class="nav-icon fas fa-book"></i>
+            <p>
+              Deposit Methods
+              <i class="fas fa-angle-left right"></i>
+            </p>
+          </a>
+          <ul class="nav nav-treeview">
+             
+            <li class="nav-item">
+              <a href="../examples/contact-us.html" class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Contact us</p>
+              </a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <i class="nav-icon fas fa-book"></i>
+            <p>
+              Withdraw Methods
+              <i class="fas fa-angle-left right"></i>
+            </p>
+          </a>
+          <ul class="nav nav-treeview">
+             
+            <li class="nav-item">
+              <a href="../examples/contact-us.html" class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Contact us</p>
+              </a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <i class="nav-icon fas fa-book"></i>
+            <p>
+              User Management
+              <i class="fas fa-angle-left right"></i>
+            </p>
+          </a>
+          <ul class="nav nav-treeview">
+             
+            <li class="nav-item">
+              <a href="../examples/contact-us.html" class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Contact us</p>
+              </a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <i class="nav-icon fas fa-book"></i>
+            <p>
+              Reports
+              <i class="fas fa-angle-left right"></i>
+            </p>
+          </a>
+          <ul class="nav nav-treeview">
+             
+            <li class="nav-item">
+              <a href="../examples/contact-us.html" class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Contact us</p>
+              </a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <i class="nav-icon fas fa-book"></i>
+            <p>
+              System Settings
+              <i class="fas fa-angle-left right"></i>
+            </p>
+          </a>
+          <ul class="nav nav-treeview">
+             
+            <li class="nav-item">
+              <a href="../examples/contact-us.html" class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Contact us</p>
+              </a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <i class="nav-icon fas fa-regular fa-user"></i>
+            <p>
+              Logout
+              <i class=" "></i>
+            </p>
+          </a>
+          
         </li>
          
       </ul>
