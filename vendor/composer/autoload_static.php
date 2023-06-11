@@ -322,8 +322,8 @@ class ComposerStaticInit09a088a5dabec67f409434c87ff527fe
         ),
         'Psr\\Http\\Message\\' => 
         array (
-            0 => __DIR__ . '/..' . '/psr/http-message/src',
-            1 => __DIR__ . '/..' . '/psr/http-factory/src',
+            0 => __DIR__ . '/..' . '/psr/http-factory/src',
+            1 => __DIR__ . '/..' . '/psr/http-message/src',
         ),
         'Psr\\Http\\Client\\' => 
         array (
@@ -499,7 +499,14 @@ class ComposerStaticInit09a088a5dabec67f409434c87ff527fe
     public static $classMap = array (
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
+        'App\\Http\\Controllers\\BrancheController' => __DIR__ . '/../..' . '/app/Http/Controllers/BrancheController.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
+        'App\\Http\\Controllers\\DepositController' => __DIR__ . '/../..' . '/app/Http/Controllers/DepositController.php',
+        'App\\Http\\Controllers\\LoanapplicationController' => __DIR__ . '/../..' . '/app/Http/Controllers/LoanapplicationController.php',
+        'App\\Http\\Controllers\\LoanproductController' => __DIR__ . '/../..' . '/app/Http/Controllers/LoanproductController.php',
+        'App\\Http\\Controllers\\MemberController' => __DIR__ . '/../..' . '/app/Http/Controllers/MemberController.php',
+        'App\\Http\\Controllers\\WithdrawdepositController' => __DIR__ . '/../..' . '/app/Http/Controllers/WithdrawdepositController.php',
+        'App\\Http\\Controllers\\microsoft\\AdminController' => __DIR__ . '/../..' . '/app/Http/Controllers/microsoft/AdminController.php',
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
         'App\\Http\\Middleware\\Authenticate' => __DIR__ . '/../..' . '/app/Http/Middleware/Authenticate.php',
         'App\\Http\\Middleware\\EncryptCookies' => __DIR__ . '/../..' . '/app/Http/Middleware/EncryptCookies.php',
@@ -510,6 +517,13 @@ class ComposerStaticInit09a088a5dabec67f409434c87ff527fe
         'App\\Http\\Middleware\\TrustProxies' => __DIR__ . '/../..' . '/app/Http/Middleware/TrustProxies.php',
         'App\\Http\\Middleware\\VerifyCsrfToken' => __DIR__ . '/../..' . '/app/Http/Middleware/VerifyCsrfToken.php',
         'App\\Models\\User' => __DIR__ . '/../..' . '/app/Models/User.php',
+        'App\\Models\\branche' => __DIR__ . '/../..' . '/app/Models/branche.php',
+        'App\\Models\\deposit' => __DIR__ . '/../..' . '/app/Models/deposit.php',
+        'App\\Models\\loanapplication' => __DIR__ . '/../..' . '/app/Models/loanapplication.php',
+        'App\\Models\\loanpayment' => __DIR__ . '/../..' . '/app/Models/loanpayment.php',
+        'App\\Models\\loanproduct' => __DIR__ . '/../..' . '/app/Models/loanproduct.php',
+        'App\\Models\\member' => __DIR__ . '/../..' . '/app/Models/member.php',
+        'App\\Models\\withdrawdeposit' => __DIR__ . '/../..' . '/app/Models/withdrawdeposit.php',
         'App\\Providers\\AppServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AppServiceProvider.php',
         'App\\Providers\\AuthServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AuthServiceProvider.php',
         'App\\Providers\\BroadcastServiceProvider' => __DIR__ . '/../..' . '/app/Providers/BroadcastServiceProvider.php',
